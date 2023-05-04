@@ -1,0 +1,10 @@
+1. Menu
+2. Read from Questions CSV
+3. Store questions and answers in dict
+4. Create time limit
+5. Randomise questions, and ask them to the user
+6. Store incorrect answers in a list/dict
+7. Score answers and create accuracy and answer per second values
+8. Output
+9. Store player names and scores
+10. Display high score

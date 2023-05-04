@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Renogare Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Renogare Regular'), url('fonts/Renogare-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "AmongUs Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("AmongUs Regular"), url('fonts/AmongUs-Regular.ttf') format('woff');
+}
+
+
+body {
+    background-color: lightgray;
+    font-family: "Renogare Regular";
+}
+
+
+.pageTitle {
+    text-align: center;
+    margin: 1em;
+}
+
+.pageTitle a,
+a:hover,
+a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(33, 37, 41, 1);
+    text-align: center;
+    margin: 0px 325px;
+    align-items: center;
+}
+
+.menuItem {
+    float: left;
+}
+
+.menuItem a {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    border-left: medium solid white;
+    color: white;
+    width: 125px;
+    font-size: x-small;
+}
+
+.menuItem a:hover {
+    background-color: #111;
+}
+
+.cardPos {
+    margin: 0px 300px;
+    margin-bottom: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 0 2px 15px -3px rgb(0 0 0 / 7%), 0 10px 20px -2px rgb(0 0 0 / 4%);
+    line-height: 1.6;
+}
+
+.cardImgPos {
+    width: 300px;
+    height: 300px;
+    margin-right: 300px;
+}
+
+.cardSBS{
+    flex: 1;
+    margin-left: 300px;
+    margin-right: 10px;
+}
+
+.side-by-side {
+    display: flex;
+}
+
+
+.but {
+    display: inline-block;
+    margin: 0px, 0px;
+    color: rgba(255,255,255,.5);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 4px;
+    transition: .2s;
+    line-height: 1.6;
+}
+
+a.but:hover {
+    color: rgba(255,255,255,.75);
+    background-color: #333;
+}
+
+a.but:visited {
+    color: rgba(255,255,255,.5);
+    background-color: #333;
+}
+
+.cardPosBut {
+    margin: 100px 750px;
+    margin-bottom: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 0 2px 15px -3px rgb(0 0 0 / 7%), 0 10px 20px -2px rgb(0 0 0 / 4%);
+    line-height: 1.6;
+}

@@ -1,0 +1,11 @@
+QUESTIONS,ANSWERS
+"This instruction set is made up of a large number of copmlex, variable-length instructions.",CISC
+Instructions from this instruction set can take several clock cycles to be executed,CISC
+This instruction set uses compound addressing modes,CISC
+This instruction set emphasises hardware over software,CISC
+This instruction set makes efficient use of RAM,CISC
+"This instruction set is made up of a small number of simple, fixed-length instructions",RISC
+Only one instruction is executes per clock cycle with this instruction set,RISC
+This instruction set uses limited addressing modes,RISC
+This instruction set emphasises software over hardware,RISC
+This instruction set uses a lot of RAM which can cause system bottlenecks,RISC
