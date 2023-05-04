@@ -1,5 +1,12 @@
 inputPence = int(input("Enter the number of pence to be converted: "))
 
+fifties = 0
+twenties = 0
+tens = 0
+fives = 0
+twos = 0
+ones = 0
+
 if inputPence >= 50:
 	fifties = inputPence // 50
 	inputPence = inputPence % 50
@@ -24,4 +31,4 @@ if inputPence >= 1:
 	ones = inputPence // 1
 	inputPence = inputPence % 1
 
-print(fifties, twenties, tens, fives, twos, ones)
+print(f"{fifties} x 50p, {twenties} x 20p, {tens} x 10p, {fives} x 5p, {twos}x 2p, {ones} x 1p")

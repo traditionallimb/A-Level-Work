@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="108c3814-881a-4ac4-9fe6-6b21d4a35403" name="Changes" comment="edit: commented cirles.py" />
+    <list default="true" id="108c3814-881a-4ac4-9fe6-6b21d4a35403" name="Changes" comment="new: coin converter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +28,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HzMd2DzClLpONVJb19iWWbyrU6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "N:/.computerScience/A Level Resources",
+    "last_opened_file_path": "N:/.computerScience/A Level Resources/Python/penceToCoins.py",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -47,7 +49,7 @@
       <recent name="N:\.computerScience\A Level Resources\Python\adventOfCode2022\day01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cardGame">
+  <component name="RunManager" selected="Python.penceToCoins">
     <configuration name="GreenFly" type="PythonConfigurationType" factoryName="Python">
       <module name="A Level Resources" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,6 +281,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="penceToCoins" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="A Level Resources" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/penceToCoins.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="polymorphicShapes" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="A Level Resources" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -496,6 +519,7 @@
       <item itemvalue="Python.arrayCodeSnippets" />
       <item itemvalue="Python.buildAHuman" />
       <item itemvalue="Python.cardGame" />
+      <item itemvalue="Python.penceToCoins" />
       <item itemvalue="Python.day01" />
       <item itemvalue="Python.day02" />
       <item itemvalue="Python.house" />
@@ -536,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683191380329</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new: coin converter">
+      <created>1683192081035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192081035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -580,6 +611,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="edit: commented cirles.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit: commented cirles.py" />
+    <MESSAGE value="new: coin converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="new: coin converter" />
   </component>
 </project>
